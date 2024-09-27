@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 23 Sep 2024 14:11:05 at https://sun-stroy.com.ua/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "ru, en, *" https://sun-stroy.com.ua/ -O1 "E:\page\tesssst" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:11:36	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://sun-stroy.com.ua/)
+14:13:11	Warning: 	Retry after error -5 (Unable to get server's address: Этот хост неизвестен. ) at link https://mc.yandex.ru/metrika/tag.js (from https://sun-stroy.com.ua/)
+14:14:23	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://mc.yandex.ru/metrika/tag.js (from https://sun-stroy.com.ua/)
+14:14:23	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://mc.yandex.ru/metrika/tag.js (from https://sun-stroy.com.ua/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 17 seconds : 533 links scanned, 528 files written (37754440 bytes overall) [34649210 bytes received at 175884 bytes/sec], 4537985 bytes transferred using HTTP compression in 134 files, ratio 24%, 5.8 requests per connection
+(2 errors, 2 warnings, 0 messages)
